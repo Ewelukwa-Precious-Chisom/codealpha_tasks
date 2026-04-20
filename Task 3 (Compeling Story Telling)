@@ -24,11 +24,11 @@ To ensure data integrity, a multi-stage pipeline was utilized:
 
 •	Data Modeling (Power BI): Developed a dynamic clinical data model utilizing a disconnected Measures Table. This allowed for real-time calculation of Key Performance Indicators (KPIs) like Average Length of Stay and Readmission Rate %.
 
-•	Segmented Analysis: Utilized DAX-driven visualizations to separate to isolate behavioral patterns.
+•	Segmented Analysis: Utilized DAX-driven visualizations to isolate behavioral patterns.
 ## Key Performance Indicators (KPIs)
 The analysis was built around four central "North Star" metrics:
 
-•	Total Encounters: 101,766 validated clinical records.
+•	Total Patients: 101,766 validated clinical records.
 
 •	Overall Readmission Rate: The baseline probability of a patient returning within 30 days.
 
