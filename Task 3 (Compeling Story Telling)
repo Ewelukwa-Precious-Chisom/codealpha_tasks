@@ -38,7 +38,7 @@ The analysis was built around four central "North Star" metrics:
 ## Insights
 • Patients with 4 or more prior inpatient stays make up over 25% of your readmissions. These aren't just "sick" patients; they are "unstable" patients. The data shows a direct "Step-Up" effect—as the number of inpatient count increases, the readmission percentage climbs.
 
-• The dataset indicates that the 60-80 age group is probably dealing with several chronic conditions that are still not sufficiently controlled during their average 4. 4-day hospital stay thereby increasing readmission rate.
+• The dataset indicates that the 60-80 age group is probably dealing with several chronic conditions that are still not sufficiently controlled during their average 4 day hospital stay thereby increasing readmission rate.
 
 • Emergency room patients are completely left out of the primary care referral system. Without a proper follow-up plan, they're likely to return to the hospital., which explains the reason their readmission rate is high.
 
@@ -46,7 +46,7 @@ The analysis was built around four central "North Star" metrics:
 
 • Patients who don't have an A1C test on record are a "black box" of risk.
 ## Recommendations
--- With the average number of medications being 16.02, A clinical pharmacist should be engaged in reviewing patients, especially those aged 60-80, with an aim to simplify their medication regimens. By addressing the complexity of "16. 02 medications, " it is likely to have a direct impact on the 57% readmission rate.
+-- With the average number of medications being 16, A clinical pharmacist should be engaged in reviewing patients, especially those aged 60-80, with an aim to simplify their medication regimens. By addressing the complexity of "16 medications, " it is likely to have a direct impact on the 57% readmission rate.
 
 -- It is advised that the hospital consider making A1C testing required for all diabetes-related admissions.
 
