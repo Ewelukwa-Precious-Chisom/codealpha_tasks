@@ -1,2 +1,56 @@
 # codealpha_tasks
-CodeAlpha_Data Analysis Project 
+CodeAlpha_Data Analysis Project (Visualization in Power BI) 
+# PATIENT'S READMISSION ANALYSIS
+## Project Overview
+Hospital readmissions are an important measure of care quality and a key contributor to avoidable health system costs. Hospitals incur huge financial penalties for high 30-day readmission rates under the current value-based care models. I started this project to investigate a complete clinical dataset (n = 101,766 diabetes-related hospital encounters) to identify the specific clinical and operational drivers of patient returns.
+## Objective
+The main aim was that, rather than descriptive statistics, actionable informatic should be forthcoming to clinical leadership. There were four main pillars in our study and they are:
+
+-- Identifying risks: Identifying high-risk clusters by demographic and clinical nature.
+
+-- Polypharmacy Effects: Relationship of number of medications prescribed and stability after discharge.
+
+-- Utilization History: Measuring how past inpatient encounters impact future readmissions.
+
+-- Operational efficiency: Assessing the impact of length of stay on patient outcomes
+## Data Source
+Primary
+## Tools
+Microsoft Excel and Power BI
+## Methodology 
+To ensure data integrity, a multi-stage pipeline was utilized:
+
+•	Data Cleaning(Excel): Performed initial cleaning on 50+ variables, including the transformation of the target variable (Readmission) into a binary numeric format and making sure that there is no empty cells.
+
+•	Data Modeling (Power BI): Developed a dynamic clinical data model utilizing a disconnected Measures Table. This allowed for real-time calculation of Key Performance Indicators (KPIs) like Average Length of Stay and Readmission Rate %.
+
+•	Segmented Analysis: Utilized DAX-driven visualizations to separate to isolate behavioral patterns.
+## Key Performance Indicators (KPIs)
+The analysis was built around four central "North Star" metrics:
+
+•	Total Encounters: 101,766 validated clinical records.
+
+•	Overall Readmission Rate: The baseline probability of a patient returning within 30 days.
+
+•	Average Length of Stay (ALOS): Measured in days to determine bed-day efficiency.
+
+•	Average Medication Load: To monitor for polypharmacy risks across different medical specialties.
+## Insights
+• Patients with 4 or more prior inpatient stays make up over 25% of your readmissions. These aren't just "sick" patients; they are "unstable" patients. The data shows a direct "Step-Up" effect—as the number of inpatient count increases, the readmission percentage climbs.
+
+• The dataset indicates that the 60-80 age group is probably dealing with several chronic conditions that are still not sufficiently controlled during their average 4. 4-day hospital stay thereby increasing readmission rate.
+
+• Emergency room patients are completely left out of the primary care referral system. Without a proper follow-up plan, they're likely to return to the hospital., which explains the reason their readmission rate is high.
+
+• As the hospital stay extends to 10+ days, the number of medications also rises to 25+. These "Long Stay/High Med" individuals are not only the most expensive patients but also carry the highest risks.
+
+• Patients who don't have an A1C test on record are a "black box" of risk.
+## Recommendations
+-- With the average number of medications being 16.02, A clinical pharmacist should be engaged in reviewing patients, especially those aged 60-80, with an aim to simplify their medication regimens. By addressing the complexity of "16. 02 medications, " it is likely to have a direct impact on the 57% readmission rate.
+
+-- It is advised that the hospital consider making A1C testing required for all diabetes-related admissions.
+
+-- All patients admitted through the ER department should have a specialist appointment scheduled, rather than just telling them to "follow up with your doctor
+
+-- To lower our percentage of readmission rate, patients with 3+ annual visits should receive a Case Manager and a home-health check-up within 48 hours of leaving the hospital.
+
