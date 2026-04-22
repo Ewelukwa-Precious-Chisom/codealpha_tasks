@@ -30,11 +30,11 @@ The analysis was built around four central "North Star" metrics:
 
 •	Total Patients: 101,766 validated clinical records.
 
-•	Overall Readmission Rate: The baseline probability of a patient returning within 30 days.
+•	Overall Readmission Rate which is the baseline probability of a patient returning within 30 days.
 
-•	Average Length of Stay (ALOS): Measured in days to determine bed-day efficiency.
+•	Average Length of Stay measured in days to determine bed-day efficiency.
 
-•	Average Medication Load: To monitor for polypharmacy risks across different medical specialties.
+•	Average Medication Load to monitor for polypharmacy risks across different medical specialties.
 ## Insights
 • Patients with 4 or more prior inpatient stays make up over 25% of your readmissions. These aren't just "sick" patients; they are "unstable" patients. The data shows a direct "Step-Up" effect—as the number of inpatient count increases, the readmission percentage climbs.
 
